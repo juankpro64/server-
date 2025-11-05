@@ -1,0 +1,10 @@
+[18:47:48] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[18:47:48] [ServerMain/ERROR]: Failed to start the minecraft server
+bel$a: /workspaces/server-/servidor_minecraft/./world/session.lock: already locked (possibly by other Minecraft instance?)
+	at bel$a.a(SourceFile:95) ~[server-1.21.10.jar:?]
+	at bel.a(SourceFile:41) ~[server-1.21.10.jar:?]
+	at fih$c.<init>(SourceFile:374) ~[server-1.21.10.jar:?]
+	at fih.d(SourceFile:353) ~[server-1.21.10.jar:?]
+	at net.minecraft.server.Main.main(SourceFile:138) ~[server-1.21.10.jar:?]
+	at net.minecraft.bundler.Main.lambda$run$0(Main.java:54) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
